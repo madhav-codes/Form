@@ -23,7 +23,7 @@ const Form = () => {
     }
 
   return (
-    <div style={{width:'400px'}}>
+    <div style={{backgroundColor: 'coral', width:'400px'}}>
         <form onSubmit={SubmitHandler} style={{display:'flex' , flexDirection:'column' ,alignItems:'center', height:"400px"}}>
             <label >NAME</label>
             <input type="text" placeholder='naam daalo' onChange={(e)=>setName(e.target.value)}/>
